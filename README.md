@@ -6,6 +6,8 @@ The Predicting Saves notebook contains the code for scraping URLs, scraping HTML
 
 The Project Presentation is a PDF of a 5 minute presentation given at Metis. 
 
+The Predicting Saves NOZEROS notebook attempts to run similar models as previously, but specifically looking into methods for handling the large number of seasons extracted in which a pitcher had no saves. Is it best to drop all of them? Then there is a risk of missing indicators that show a new closer arising. Are there specific reasons for some zeros that can be identified? This notebook aided in identifying erroneous values from pitchers' final seasons, where the target shouldn't be zero and the model should not be fit on this year. 
+
 ## Objective:
 Build a regression model to predict the number of saves a pitcher will earn based on previous statistics
 
