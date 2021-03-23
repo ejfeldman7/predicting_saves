@@ -1,5 +1,5 @@
 # Predicting_Saves
-Using baseball statistics to predict saves based on past performance
+Using baseball statistics to predict saves based on past performance with linear regression
 
 ## Contents
 The Predicting Saves notebook contains the code for scraping URLs, scraping HTML from those URLs, and parsing them using Beautiful Soup. It goes on to clean and organize the data into dataframes before applying a number of visualization techniques for feature analysis. There are a number of models then created and tested, followed by some additional visualizations of the resulting models, error, and additional analysis. 
